@@ -196,8 +196,8 @@ const content = {
         "es": "Club Lounge Attendant"
     },
     "j3c": {
-        "en": "Rresponsible for helping to set tables, deliver food / drink orders, and additional kitchen / busser duties as needed, refresh food offerings during the day for VIP guests, responsible for engaging and attending to VIP guest needs.",
-        "es": "Rresponsable de ayudar a poner las mesas, entregar pedidos de comida / bebida y tareas adicionales de cocina / ayudante según sea necesario, refrescar las ofertas de comida durante el día para los invitados VIP, responsable de involucrar y atender las necesidades de los huéspedes VIP. ",
+        "en": "Responsible for helping to set tables, deliver food / drink orders, and additional kitchen / busser duties as needed, refresh food offerings during the day for VIP guests, responsible for engaging and attending to VIP guest needs.",
+        "es": "Responsable de ayudar a poner las mesas, entregar pedidos de comida / bebida y tareas adicionales de cocina / ayudante según sea necesario, refrescar las ofertas de comida durante el día para los invitados VIP, responsable de involucrar y atender las necesidades de los huéspedes VIP. ",
     },
     "j4p": {
         "en": "October 2018 - November 2019",
