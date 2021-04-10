@@ -315,6 +315,10 @@ const content = {
         "en": "Reports creation in iReports and Jasper Reports",
         "es": "Creación de reportes en iReports y Jasper reports",
     },
+    "c9": {
+        "en": "Modern JavaScript",
+        "es": "JavaScript moderno",
+    }
 }
 
 function translate(lang) {
