@@ -29,7 +29,7 @@ const content = {
     },
     "experience": {
         "en": "Experience",
-        "es": "Experience",
+        "es": "Experiencia",
     },
     "formation": {
         "en": "Formation",
@@ -109,7 +109,7 @@ const content = {
             "<br/>" +
             "Mi enfoque está en la legibilidad, sencillez, eficiencia y elegancia del código para inspirar a mis colaboradores a seguir patrones que permitan crear proyectos óptimos.<br/>" +
             "<br/>" +
-            "Te invito cordialmente a conocer mi perfil y mi trabajo, ¡gracias por tu visita!",
+            "Te invito cordialmente a conocer mi perfil y mi trabajo, ¡Gracias por tu visita!",
     },
     "web_development": {
         "en": "Web development",
