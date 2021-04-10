@@ -90,7 +90,8 @@
             <a rel="noreferrer" name="formation" class="nalt" onclick="hideMobNav()"
                href="#formation"></a>
 
-            <b><a class="dropdown-toggle" name="language" href="javascript:void(0)"></a>:</b>
+            <b style="padding-top: 15px">
+                <a class="dropdown-toggle" name="language" href="javascript:void(0)"></a>:</b>
             <a rel="noreferrer" name="english" class="nalt" onclick="tr('en')"
                href="#formation"></a>
             <a rel="noreferrer" name="spanish" class="nalt" onclick="tr('es')"
@@ -693,6 +694,7 @@
         function tr(lang) {
             $('#dropLang').removeClass('d-block');
             translate(lang);
+            hideMobNav();
         }
         translate('en');
         scrollFunction();
