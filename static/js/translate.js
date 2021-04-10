@@ -252,8 +252,8 @@ const content = {
         "es": "Pasante",
     },
     "j9c": {
-        "en": "Tareas administrativas generales. Actividades realizadas en el área de recursos humanos de la empresa.",
-        "es": "General administrative tasks. Activities carried out in the human resources area of the company.",
+        "en": "General administrative tasks. Activities carried out in the human resources area of the company.",
+        "es": "Tareas administrativas generales. Actividades realizadas en el área de recursos humanos de la empresa.",
     },
     "licen": {
         "en": "Bachelor's degree in computing sciences with emphasis in computing systems analysis",
