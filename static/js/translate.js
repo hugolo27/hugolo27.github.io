@@ -318,7 +318,15 @@ const content = {
     "c9": {
         "en": "Modern JavaScript",
         "es": "JavaScript moderno",
-    }
+    },
+    "c10": {
+        "en": "Introduction to Web Development I",
+        "es": "Introducción al Desarrollo Web I",
+    },
+    "c11": {
+        "en": "Introduction to Web Development II",
+        "es": "Introducción al Desarrollo Web II",
+    },
 }
 
 function translate(lang) {
