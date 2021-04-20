@@ -327,6 +327,10 @@ const content = {
         "en": "Introduction to Web Development II",
         "es": "Introducción al Desarrollo Web II",
     },
+    "c12": {
+        "en": "Advanced JavaScript",
+        "es": "JavaScript avanzado",
+    },
 }
 
 function translate(lang) {
