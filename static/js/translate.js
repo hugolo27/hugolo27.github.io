@@ -331,6 +331,10 @@ const content = {
         "en": "Advanced JavaScript",
         "es": "JavaScript avanzado",
     },
+    "c13": {
+        "en": "React",
+        "es": "React",
+    },
 }
 
 function translate(lang) {
