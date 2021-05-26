@@ -335,6 +335,10 @@ const content = {
         "en": "React",
         "es": "React",
     },
+    "c14": {
+        "en": "React Hooks",
+        "es": "React Hooks",
+    },
 }
 
 function translate(lang) {
