@@ -131,6 +131,10 @@ const content = {
         "en": "Utility app",
         "es": "App utilitaria",
     },
+    "learning_platform": {
+        "en": "Learning platform",
+        "es": "Plataforma de aprendizaje",
+    },
     "e_commerce": {
         "en": "E-commerce website",
         "es": "Sitio web e-commerce",
