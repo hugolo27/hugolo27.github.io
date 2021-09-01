@@ -185,7 +185,7 @@ const content = {
     },
     "j2p": {
         "en": "May 2020 - December 2020",
-        "es": "Mayp 2020 - Diciembre 2020",
+        "es": "Mayo 2020 - Diciembre 2020",
     },
     "j2c": {
         "en": "Full stack development of applications for internal company use. Procedures, functions, packages, triggers, tables and others of Oracle Database with PL / SQL language. Socket / RESTful connection APIs in Java language, RESTful API in javascript. Utility scripting in python, PHP, shell. UI / UX renovation of projects with HTML5 + CSS3 + Bootstrap + jQuery. ",
