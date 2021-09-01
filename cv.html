@@ -3,109 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <title>CV - Hugo López</title>
+    <noscript>
+        <style>
+            body {
+                margin: 0;
+                font-family: 'Montserrat', 'Roboto', sans-serif;
+                scroll-behavior: smooth;
+            }
+
+            .d-flex {
+                display: flex;
+                padding: 0;
+            }
+
+            .w-30 {
+                width: 30vw;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                background: coral;
+                align-items: center;
+                justify-content: center;
+                position: fixed;
+            }
+
+            .w-30 a {
+                width: 93%;
+                padding: 5px;
+                color: white;
+                text-align: center;
+                background: rgba(255, 255, 255, 0.32);
+                margin: 5px;
+                text-decoration: none;
+            }
+
+            .w-30 a:hover {
+                opacity: .5;
+            }
+
+            .w-70 {
+                width: 70vw;
+                margin-left: 30vw;
+                padding: 15px;
+            }
+
+            .h-100 {
+                height: 100vh;
+            }
+
+            .section {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 5px;
+            }
+
+            #personal img {
+                width: 15%;
+                height: auto;
+                border: 1px solid coral;
+            }
+
+            #personal h1, .title {
+                color: coral;
+                font-weight: bold;
+            }
+
+            #personal ul {
+                width: 95%;
+            }
+
+            #personal li {
+                width: 100%;
+                display: flex;
+                margin: 10px 0;
+            }
+
+            #personal li u {
+                width: 30%;
+            }
+
+            .section span {
+                text-align: center;
+            }
+
+            .row {
+                display: flex;
+                width: 95%;
+                justify-content: space-around;
+            }
+
+            .row img {
+                width: 10vw;
+                height: auto;
+            }
+
+            .row div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+        </style>
+    </noscript>
 </head>
 <body>
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Montserrat', 'Roboto', sans-serif;
-            scroll-behavior: smooth;
-        }
-
-        .d-flex {
-            display: flex;
-            padding: 0;
-        }
-
-        .w-30 {
-            width: 30vw;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            background: coral;
-            align-items: center;
-            justify-content: center;
-            position: fixed;
-        }
-
-        .w-30 a {
-            width: 93%;
-            padding: 5px;
-            color: white;
-            text-align: center;
-            background: rgba(255, 255, 255, 0.32);
-            margin: 5px;
-            text-decoration: none;
-        }
-
-        .w-30 a:hover {
-            opacity: .5;
-        }
-
-        .w-70 {
-            width: 70vw;
-            margin-left: 30vw;
-            padding: 15px;
-        }
-
-        .h-100 {
-            height: 100vh;
-        }
-
-        .section {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 5px;
-        }
-
-        #personal img {
-            width: 15%;
-            height: auto;
-            border: 1px solid coral;
-        }
-
-        #personal h1, .title {
-            color: coral;
-            font-weight: bold;
-        }
-
-        #personal ul {
-            width: 95%;
-        }
-
-        #personal li {
-            width: 100%;
-            display: flex;
-            margin: 10px 0;
-        }
-
-        #personal li u {
-            width: 30%;
-        }
-
-        .section span {
-            text-align: center;
-        }
-
-        .row {
-            display: flex;
-            width: 95%;
-            justify-content: space-around;
-        }
-
-        .row img {
-            width: 10vw;
-            height: auto;
-        }
-
-        .row div {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-    </style>
     <div class="d-flex">
         <div class="w-30">
             <a href="#personal">PERSONAL</a>
@@ -116,7 +118,7 @@
         </div>
         <div class="w-70">
             <div class="h-100 section" id="personal">
-                <img src="static/img/hl1.jpg">
+                <img src="static/img/hl1.jpg" alt="foto" />
                 <h1>Hugo López</h1>
                 <h3>INFORMACIÓN PERSONAL</h3>
                 <ul>
