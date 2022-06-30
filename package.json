@@ -13,6 +13,8 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0",
+    "sass": "^1.50.0",
+    "serve": "^13.0.2",
     "typescript": "^4.6.3",
     "web-vitals": "^2.1.4"
   },
@@ -39,5 +41,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint": "^8.14.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.29.4"
   }
 }

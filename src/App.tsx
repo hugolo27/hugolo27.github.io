@@ -1,26 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/header/Header';
+import './App.scss';
+import Cover from './components/cover/Cover';
+import About from './components/about/About';
+import Services from './components/services/Services';
+import Portfolio from './components/portfolio/Portfolio';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
+import getContent from './content';
 
-function App() {
+
+const App = () => {
+  const [language, setLanguage] = React.useState('en');
+  const switchLanguage = () =>
+    setLanguage(language === 'en' ? 'es' : 'en');
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={'main'}>
+      <Header content={getContent(language, 'header')} />
+      <Cover setLang={switchLanguage}
+        content={getContent(language, 'cover')} />
+      <About content={getContent(language, 'about')} />
+      <Services content={getContent(language, 'services')} />
+      <Portfolio content={getContent(language, 'portfolio')} />
+      <Contact content={getContent(language, 'contact')} />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
