@@ -22,7 +22,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            overflow: hidden;
+            overflow-x: hidden;
+            padding: 1rem 0;
         }
 
         .container {
@@ -143,22 +144,31 @@
         }
 
         @media (max-width: 600px) {
+            body {
+                padding: 0.5rem 0;
+            }
+
+            .container {
+                padding: 2rem 1.5rem;
+            }
+
             h1 {
-                font-size: 3rem;
+                font-size: 2.5rem;
             }
 
             .minion-gif {
-                width: 250px;
-                height: 250px;
+                width: 200px;
+                height: 200px;
             }
 
             .question {
-                font-size: 1.4rem;
+                font-size: 1.2rem;
+                margin: 1.5rem 0;
             }
 
             #yesBtn {
-                font-size: 1.5rem;
-                padding: 1.2rem 2.5rem;
+                font-size: 1.3rem;
+                padding: 1rem 2rem;
             }
 
             .buttons {
@@ -215,19 +225,21 @@
             document.body.innerHTML = `
                 <div id="celebration-screen" style="
                     display: flex;
-                    justify-content: center;
+                    justify-content: flex-start;
                     align-items: center;
                     min-height: 100vh;
                     background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
                     flex-direction: column;
                     text-align: center;
-                    padding: 2rem;
+                    padding: 2rem 1rem;
+                    overflow-y: auto;
                 ">
                     <h1 style="
                         font-family: 'Pacifico', cursive;
-                        font-size: 4rem;
+                        font-size: clamp(2rem, 8vw, 4rem);
                         color: white;
-                        margin-bottom: 2rem;
+                        margin-bottom: 1.5rem;
+                        margin-top: 1rem;
                         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
                         animation: celebrate 1s ease-in-out infinite;
                     ">
@@ -235,29 +247,33 @@
                     </h1>
                     <p style="
                         font-family: 'Quicksand', sans-serif;
-                        font-size: 2rem;
+                        font-size: clamp(1rem, 4vw, 1.5rem);
                         color: white;
                         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+                        max-width: 90%;
+                        line-height: 1.6;
                     ">
                          Gracias por estar a mi lado, sos mi universo, soy el hombre más afortunado del mundo 🧡
                     </p>
                     <br/>
-                    <br/>
                     <p style="
                         font-family: 'Quicksand', sans-serif;
-                        font-size: 2rem;
+                        font-size: clamp(1rem, 4vw, 1.5rem);
                         color: white;
                         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+                        max-width: 90%;
+                        line-height: 1.6;
                     ">
                         Tendremos una cita el 14, te llevaré por un ovni 🍀
                     </p>
                     <br/>
-                    <br/>
                     <p style="
                         font-family: 'Quicksand', sans-serif;
-                        font-size: 2rem;
+                        font-size: clamp(1rem, 4vw, 1.5rem);
                         color: white;
                         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+                        max-width: 90%;
+                        line-height: 1.6;
                     ">
                         Y también te dejo cupones para lo que quieras, porque te mereces el mundo entero! 🎫 🎫 🎫
                     </p>
@@ -268,12 +284,13 @@
                         color: white;
                         border: 2px solid white;
                         padding: 1rem 2rem;
-                        font-size: 1.2rem;
+                        font-size: clamp(1rem, 3vw, 1.2rem);
                         font-family: 'Quicksand', sans-serif;
                         font-weight: 600;
                         border-radius: 50px;
                         cursor: pointer;
-                        margin-top: 2rem;
+                        margin-top: 1rem;
+                        margin-bottom: 2rem;
                         transition: all 0.3s ease;
                         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
                     " onmouseover="this.style.background='rgba(255, 255, 255, 0.5)'"
