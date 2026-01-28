@@ -1,559 +1,377 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-8ZV01JMF8P"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-            gtag('config', 'G-8ZV01JMF8P');
-        </script>
-        <title>Hello! I'm Hugo López</title>
-        <meta charset="utf-8">
-        <meta name="theme-color" content="#001933" />
-        <meta name="title" content="Hello! I'm Hugo López">
-        <meta name="description" content="The professional portfolio website of Hugo López, a Senior Software Engineer from Paraguay">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://hugolo27.github.io/">
-        <meta property="og:title" content="Hello! I'm Hugo López">
-        <meta property="og:description" content="The professional portfolio website of Hugo López, a Senior Software Engineer from Paraguay">
-        <meta property="og:image" content="">
-        <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://hugolo27.github.io/">
-        <meta property="twitter:title" content="Hello! I'm Hugo López">
-        <meta property="twitter:description" content="The professional portfolio website of Hugo López, a Senior Software Engineer from Paraguay">
-        <meta property="twitter:image" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="css/animate.css" media="print" onload="this.media='all'">
-        <link rel="stylesheet" href="css/owl.carousel.min.css" media="print" onload="this.media='all'">
-        <link rel="stylesheet" href="css/flaticon.css" media="print" onload="this.media='all'">
-        <link rel="stylesheet" href="css/icomoon.css" media="print" onload="this.media='all'">
-        <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
-        <link rel="icon" type="image/x-icon" href="favicon.ico">
-    </head>
-    <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="background: #001933">
-        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target"
-           id="ftco-navbar">
-          <div class="container">
-              <a class="navbar-brand" href="#">
-                  <img src="images/logo.webp" alt="HL"/>
-              </a>
-              <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"
-                      type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav"
-                      aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="oi oi-menu"></span> Menu
-              </button>
-              <div class="collapse navbar-collapse" id="ftco-nav">
-                  <ul class="navbar-nav nav ml-auto">
-                      <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-                      <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-                      <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-                      <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
-                      <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
-                      <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-                      <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-                  </ul>
-              </div>
-          </div>
-        </nav>
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
 
-        <section id="home-section" class="hero">
-          <div class="home-slider  owl-carousel">
-              <div class="slider-item ">
-                  <div class="overlay"></div>
-                  <div class="container">
-                      <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
-                           data-scrollax-parent="true">
-                          <div class="one-third js-fullheight order-md-last img"
-                               style="background-image: url(images/C.webp);" >
-                          <div class="overlay"></div>
-                      </div>
-                      <div class="one-forth d-flex  align-items-center ftco-animate"
-                           data-scrollax=" properties: { translateY: '70%' }">
-                          <div class="text">
-                              <span class="subheading">Hello!</span>
-                              <h1 class="mb-4 mt-3">I'm <span>Hugo López</span></h1>
-                              <h2 class="mb-4">Software Engineer</h2>
-                              <h6 class="hug">
-                                  I invite you to know my professional profile including my portfolio and experience, detailed on
-                                  this site. Or follow me on other networks!
-                              </h6>
-                              <br/>
-                              <p>
-                                  <a href="resume_cv_hugo_lopez.pdf" target="_blank" rel="noreferrer"
-                                     class="btn btn-primary py-3 px-4">
-                                      Download CV</a>
-                                  <a href="https://py.linkedin.com/in/hugolo27" target="_blank" rel="noreferrer"
-                                     class="btn btn-white btn-outline-white py-3 px-4">
-                                      LINKEDIN</a>
-                                  <a href="https://github.com/hugolo27" target="_blank" rel="noreferrer"
-                                     class="btn btn-white btn-outline-white py-3 px-4">
-                                      github</a>
-                                  <br/><br/>
-                                  <a href="#about-section"
-                                     class="btn btn-primary py-3 px-4 d-lg-none">
-                                      See more ⬇️️</a>
-                              </p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          </div>
-        </section>
+        .container {
+            text-align: center;
+            background: rgba(30, 30, 50, 0.95);
+            padding: 3rem 2rem;
+            border-radius: 30px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            max-width: 500px;
+            width: 90%;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+        }
 
-        <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-          <div class="container">
-              <div class="row d-flex">
-                  <div class="col-md-6 col-lg-5 d-flex">
-                      <div class="img-about img d-flex align-items-stretch">
-                          <div class="overlay"></div>
-                          <div class="img d-flex align-self-stretch align-items-center"
-                               style="background-image: url(images/B.webp);" >
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
-                  <div class="row justify-content-start pb-3">
-                      <div class="col-md-12 heading-section ftco-animate">
-                          <h1 class="big">About</h1>
-                          <h2 class="mb-4">About Me</h2>
-                          <p class="hug">Bachelor in Computing Sciences,
-                              with strong experience in React, React Native, JavaScript, and other web-related technologies.</p>
-                          <p class="hug">Team player, innovative, problem solver, future-minded. I bring my experience to
-                              develop useful and efficient solutions. I’m also quite fun!</p>
-                          <ul class="about-info mt-4 px-md-0 px-2">
-                              <li class="d-flex"><span>Name:</span> <span>Hugo López</span></li>
-                              <li class="d-flex"><span>Date of birth:</span> <span>April 27, 1995</span></li>
-                              <li class="d-flex"><span>Residence:</span> <span>Asunción, Paraguay</span></li>
-                              <li class="d-flex"><span>Email:</span> <span>hugolo.27095@gmail.com</span></li>
-                              <li class="d-flex"><span>WhatsApp: </span> <span>+595981780576</span></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="counter-wrap ftco-animate d-flex mt-md-3">
-                      <div class="text">
-                          <p class="mb-4">
-                              <span>Over</span>
-                              <span class="number" data-number="6">0</span>
-                              <span>Years of experience</span>
-                          </p>
-                          <p><a href="resume_cv_hugo_lopez.pdf" target="_blank" rel="noreferrer"
-                                class="btn btn-primary py-3 px-3">Download CV</a></p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          </div>
-        </section>
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 4rem;
+            color: #ff69b4;
+            margin-bottom: 2rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            font-weight: normal;
+        }
 
-        <section class="ftco-section ftco-no-pb" id="resume-section">
-          <div class="container">
-              <div class="row justify-content-center pb-5">
-                  <div class="col-md-10 heading-section text-center ftco-animate">
-                      <h1 class="big big-2">Resume</h1>
-                      <h2 class="mb-4">Resume</h2>
-                      <p>With 6+ years of experience in web development, I seek to broaden my horizon and constantly innovate
-                          while creating software solutions.</p>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-6">
-                      <div class="resume-wrap ftco-animate">
-                          <span class="date">Nov 2022 - Present</span>
-                          <h2>Senior Frontend Developer</h2>
-                          <span class="position"><a href="https://www.lennd.com/" target="_blank"
-                                                    rel="noreferrer">Lennd</a>
-                                - Remote (&#127482;&#127480;)</span>
-                          <p class="mt-4">
-                              React, React hooks, GraphQL, neo4j, Cypher, MaterialUI, TypeScript, Redux, Redux-sagas, Storybook, CircleCI, RESTful APIs, Jest, GitLab, Jira, Figma, Slack.
-                          </p>
-                          <div class="mt-4">
-                              <b>Projects:</b>
-                              <a href="https://www.lennd.com/" target="_blank"
-                                 rel="noreferrer">Indr Platform</a>
-                          </div>
-                      </div>
-		     <div class="resume-wrap ftco-animate">
-                          <span class="date">Jun 2021 - Nov 2022</span>
-                          <h2>Full Stack Developer</h2>
-                          <span class="position"><a target="_blank"
-                                                    href="https://www.sweatworks.com/">SweatWorks</a>
-                                - Remote (&#127482;&#127480;)</span>
-                          <p class="mt-4">
-                              PostgreSQL, Django, React, React-native, TypeScript, RESTful
-                              APIs, Jest, AppCenter, BitBucket, Jira, Fibery, Figma, Slack
-                          </p>
-                          <div class="mt-4">
-                              <b>Projects:</b>
-                              <a href="https://cityrow.com/en-us/app" target="_blank"
-                                 rel="noreferrer">CityRow (web)</a> -
-                              <a href="https://play.google.com/store/apps/details?id=com.cityrowgo&hl=en&gl=US"
-                                 rel="noreferrer" target="_blank">CityRow GO (app)</a>
-                          </div>
-                      </div>
-                      <div class="resume-wrap ftco-animate">
-                          <span class="date">Oct 2018 - May 2021</span>
-                          <h2>Full Stack Developer</h2>
-                          <span class="position"><a target="_blank"
-                                                        href="https://www.pagoexpress.com.py/">Pago Express</a>
-                                - Paraguay (&#127477;&#127486;)</span>
-                          <p class="mt-4">
-                              Oracle, SQLite, Django, React, React-native, JavaScript,
-                              TypeScript, JQuery, RESTful APIs, GitBlit, Jira, Figma,
-                              Slack.
-                          </p>
-                          <div class="mt-4">
-                              <b>Projects:</b>
-                              <a href="https://www.pagoexpress.com.py/pos/" target="_blank"
-                                 rel="noreferrer">POS Web (web)</a> -
-                              <a href="https://www.pagoexpress.com.py/portal/" target="_blank"
-                                 rel="noreferrer">Portal (web)</a>
-                          </div>
-                      </div>
-                      <div class="resume-wrap ftco-animate">
-                          <span class="date">Dec 2016 - Dec 2017</span>
-                          <h2>Frontend Developer</h2>
-                          <span class="position"><a target="_blank"
-                                                        href="https://www.konecta.com.py/">Konecta</a>
-                                - Paraguay (&#127477;&#127486;)</span>
-                          <p class="mt-4">
-                              SQLite, PostgreSQL, Python, JavaScript, JQuery,
-                              RESTful APIs, GitHub, GitLab, Jira, Trello.
-                          </p>
-                      </div>
-                  </div>
-                  <div class="col-md-6">
-                      <div class="resume-wrap ftco-animate">
-                          <span class="date">Jun 2022 - Nov 2022</span>
-                          <h2>Senior React Developer</h2>
-                          <span class="position"><a href="https://www.nerdery.com/" target="_blank"
-                                                        rel="noreferrer">Nerdery</a>
-                                - Remote (&#127482;&#127480;)</span>
-                          <p class="mt-4">
-                              React, Next.js, TypeScript, RESTful APIs, Jest, GitLab, Jira,
-                              Figma, Slack.
-                          </p>
-                          <div class="mt-4">
-                              <b>Projects:</b>
-                              <a href="https://www.uncommonapp.com/" target="_blank"
-                                 rel="noreferrer">Uncommon (PWA)</a>
-                          </div>
-                      </div>
-                      <div class="resume-wrap ftco-animate">
-                          <span class="date">Jul 2021 - Feb 2022 (Freelance)</span>
-                          <h2>Tech Lead</h2>
-                          <span class="position"><a target="_blank" href="https://mapakids.org/">MAPA Kids</a>
-                                - Remote (&#127477;&#127486;)</span>
-                          <p class="mt-4">
-                              React, TypeScript, RESTful APIs, GitHub, Trello, Slack.
-                          </p>
-                          <div class="mt-4">
-                              <b>Projects:</b>
-                              <a href="https://mapakids.org/#Firstimage" target="_blank"
-                                 rel="noreferrer">MAPA Kids (web)</a>
-                          </div>
-                      </div>
-                      <div class="resume-wrap ftco-animate">
-                          <span class="date">Jan 2018 - Sep 2018</span>
-                          <h2>Frontend Developer</h2>
-                          <span class="position"><a target="_blank"
-                                                    href="https://www.rugertek.com/">RugerTek</a>
-                                - Paraguay (&#127477;&#127486;)</span>
-                          <p class="mt-4">
-                              MySQL, PostgreSQL, React, JavaScript, JQuery, RESTful
-                              APIs, BitBucket, GitLab, Jira, Trello.
-                          </p>
-                          <div class="mt-4">
-                              <b>Projects:</b>
-                              <a href="https://www.rupahealth.com/" target="_blank"
-                                 rel="noreferrer">Rupa Health (web)</a>
-                          </div>
-                      </div>
-                      
-                  </div>
-              </div>
-              <div class="row justify-content-center mt-5">
-                  <div class="col-md-6 text-center ftco-animate">
-                      <p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
-                  </div>
-              </div>
-          </div>
-        </section>
+        .minion-gif {
+            width: 300px;
+            height: 300px;
+            object-fit: contain;
+            margin: 1rem auto;
+            border-radius: 20px;
+        }
 
-        <section class="ftco-section" id="services-section">
-          <div class="container">
-              <div class="row justify-content-center py-5 mt-5">
-                  <div class="col-md-12 heading-section text-center ftco-animate">
-                      <h1 class="big big-2">Services</h1>
-                      <h2 class="mb-4">Services</h2>
-                      <p>I focus on the legibility, simplicity, efficiency and elegance of code in order to inspire my
-                          collaborators to follow patterns that allow creating optimal projects.</p>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-6 text-center d-flex ftco-animate">
-                      <a href="#" class="services-1">
-                            <span class="icon">
-                                <i class="flaticon-innovation"></i>
-                            </span>
-                          <div class="desc">
-                              <h3 class="mb-5">Backend Development</h3>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-md-6 text-center d-flex ftco-animate">
-                      <a href="#" class="services-1">
-                            <span class="icon">
-                                <i class="flaticon-web-design"></i>
-                            </span>
-                          <div class="desc">
-                              <h3 class="mb-5">Frontend Development</h3>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-md-6 text-center d-flex ftco-animate">
-                      <a href="#" class="services-1">
-                            <span class="icon">
-                                <i class="flaticon-ux-design"></i>
-                            </span>
-                          <div class="desc">
-                              <h3 class="mb-5">Mobile Development</h3>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-md-6 text-center d-flex ftco-animate">
-                      <a href="#" class="services-1">
-                            <span class="icon">
-                                <i class="flaticon-analysis"></i>
-                            </span>
-                          <div class="desc">
-                              <h3 class="mb-5">Consulting & Technical Service</h3>
-                          </div>
-                      </a>
-                  </div>
-              </div>
-          </div>
-        </section>
+        .question {
+            font-size: 1.8rem;
+            color: #ffffff;
+            margin: 2rem 0;
+            font-weight: 600;
+        }
 
-        <section class="ftco-section" id="skills-section">
-          <div class="container">
-              <div class="row justify-content-center pb-5">
-                  <div class="col-md-12 heading-section text-center ftco-animate">
-                      <h1 class="big big-2">Skills</h1>
-                      <h2 class="mb-4">Skills</h2>
-                      <p>In some technologies that I've been working with throughout my career, among a lot of other tools and
-                          platforms.</p>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-6 animate-box">
-                      <div class="progress-wrap ftco-animate">
-                          <h3>JavaScript</h3>
-                          <span>5 years</span>
-                      </div>
-                  </div>
-                  <div class="col-md-6 animate-box">
-                      <div class="progress-wrap ftco-animate">
-                          <h3>HTML/CSS</h3>
-                          <span>5 years</span>
-                      </div>
-                  </div>
-                  <div class="col-md-6 animate-box">
-                      <div class="progress-wrap ftco-animate">
-                          <h3>React</h3>
-                          <span>4 years</span>
-                      </div>
-                  </div>
-                  <div class="col-md-6 animate-box">
-                      <div class="progress-wrap ftco-animate">
-                          <h3>React native</h3>
-                          <span>3 years</span>
-                      </div>
-                  </div>
-                  <div class="col-md-6 animate-box">
-                      <div class="progress-wrap ftco-animate">
-                          <h3>TypeScript</h3>
-                          <span>3 years</span>
-                      </div>
-                  </div>
-                  <div class="col-md-6 animate-box">
-                      <div class="progress-wrap ftco-animate">
-                          <h3>SQL</h3>
-                          <span>3 years</span>
-                      </div>
-                  </div>
-                  <div class="col-md-6 animate-box">
-                      <div class="progress-wrap ftco-animate">
-                          <h3>SASS</h3>
-                          <span>3 years</span>
-                      </div>
-                  </div>
-                  <div class="col-md-6 animate-box">
-                      <div class="progress-wrap ftco-animate">
-                          <h3>Django</h3>
-                          <span>2 years</span>
-                      </div>
-                  </div>
-                  <div class="col-md-6 animate-box">
-                      <div class="progress-wrap ftco-animate">
-                          <h3>Python</h3>
-                          <span>2 years</span>
-                      </div>
-                  </div>
-                  <div class="col-md-6 animate-box">
-                      <div class="progress-wrap ftco-animate">
-                          <h3>Jest</h3>
-                          <span>1 year</span>
-                      </div>
-                  </div>
-              </div>
-          </div>
-        </section>
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+            margin-top: 2rem;
+            position: relative;
+            min-height: 150px;
+        }
 
-        <section class="ftco-section ftco-project" id="projects-section">
-          <div class="container">
-              <div class="row justify-content-center pb-5">
-                  <div class="col-md-12 heading-section text-center ftco-animate">
-                      <h1 class="big big-2">Projects</h1>
-                      <h2 class="mb-4">Personal Projects</h2>
-                      <p>Developed mostly on a freelance basis, including open source and proprietary software, web
-                          applications, mobile applications and PWAs</p>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-4">
-                      <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                           style="background-image: url(images/smartpoms.webp);" >
-                      <div class="overlay"></div>
-                      <div class="text text-center p-4">
-                          <h3><a href="https://play.google.com/store/apps/details?id=hlopez.smartpoms"
-                                 rel="noreferrer" target="_blank">Smart POMS</a></h3>
-                          <span>Android SDK</span>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-8">
-                  <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                       style="background-image: url(images/mapa.webp);" >
-                  <div class="overlay"></div>
-                  <div class="text text-center p-4">
-                      <h3><a href="https://mapakids.org/" rel="noreferrer" target="_blank">MAPA Kids</a></h3>
-                      <span>React & TypeScript</span>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-8">
-              <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                   style="background-image: url(images/policalc.webp);" >
-              <div class="overlay"></div>
-              <div class="text text-center p-4">
-                  <h3><a href="https://m.apkpure.com/policalc/hlopez.policalc"
-                         rel="noreferrer" target="_blank">PoliCalc</a></h3>
-                  <span>React Native & TypeScript</span>
-              </div>
-          </div>
-          </div>
-          <div class="col-md-4">
-              <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                   style="background-image: url(images/hm.webp);" >
-              <div class="overlay"></div>
-              <div class="text text-center p-4">
-                  <h3><a href="https://hugo-y-marta.vercel.app/?det=19K"
-                         rel="noreferrer" target="_blank">H&M</a></h3>
-                  <span>React & TypeScript</span>
-              </div>
-          </div>
-          </div>
-          <div class="col-md-4">
-              <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                   style="background-image: url(images/nantes.webp);" >
-              <div class="overlay"></div>
-              <div class="text text-center p-4">
-                  <h3><a href="http://186.0.190.89:23000/calendario/"
-                         rel="noreferrer" target="_blank">Nantes</a></h3>
-                  <span>React & TypeScript</span>
-              </div>
-          </div>
-          </div>
-          <div class="col-md-8">
-              <div class="project img ftco-animate d-flex justify-content-center align-items-center"
-                   style="background-image: url(images/mistraleros.webp);" >
-              <div class="overlay"></div>
-              <div class="text text-center p-4">
-                  <h3><a href="https://play.google.com/store/apps/details?id=com.hlopez.mistraleros"
-                         rel="noreferrer" target="_blank">Mistraleros</a></h3>
-                  <span>Django & React Native & TypeScript</span>
-              </div>
-          </div>
-          </div>
-          </div>
-          </div>
-        </section>
+        button {
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.2s;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
 
-        <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-          <div class="container">
-              <div class="row justify-content-center mb-5 pb-3">
-                  <div class="col-md-7 heading-section text-center ftco-animate">
-                      <h1 class="big big-2">Contact</h1>
-                      <h2 class="mb-4">Contact Me</h2>
-                      <p>
-                          And let's build together the awesome project you have in mind!
-                      </p>
-                  </div>
-              </div>
+        button:hover {
+            transform: scale(1.05);
+        }
 
-              <div class="row d-flex contact-info mb-5">
-                  <div class="col-md-6 col-lg-6 d-flex ftco-animate">
-                      <a href="mailto:hugolo.27095@gmail.com" target="_blank" rel="noreferrer"
-                         class="align-self-stretch box p-4 text-center">
-                          <div class="align-self-stretch box p-4 text-center">
-                              <div class="icon d-flex align-items-center justify-content-center">
-                                  <span class="icon-paper-plane"></span>
-                              </div>
-                              <h3 class="mb-4">E-mail</h3>
-                              <p>Click to compose</p>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-md-6 col-lg-6 d-flex ftco-animate">
-                      <a href="https://wa.me/595981780576" target="_blank" rel="noreferrer"
-                         class="align-self-stretch box p-4 text-center">
-                          <div class="align-self-stretch box p-4 text-center">
-                              <div class="icon d-flex align-items-center justify-content-center">
-                                  <span class="icon-phone2"></span>
-                              </div>
-                              <h3 class="mb-4">WhatsApp</h3>
-                              <p>Click to chat</p>
-                          </div>
-                      </a>
-                  </div>
-              </div>
+        #yesBtn {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            font-size: 2rem;
+            padding: 1.5rem 3rem;
+            animation: pulse 1.5s ease-in-out infinite;
+            position: relative;
+            z-index: 10;
+        }
 
-          </div>
-        </section>
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 4px 15px rgba(245, 87, 108, 0.4);
+            }
+            50% {
+                transform: scale(1.1);
+                box-shadow: 0 8px 25px rgba(245, 87, 108, 0.6);
+            }
+        }
 
-        <div id="ftco-loader" class="show fullscreen">
-          <svg class="circular" width="48px" height="48px">
-              <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
-              <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-                      stroke="#F96D00"/>
-          </svg>
+        #noBtn {
+            background: #e0e0e0;
+            color: #666;
+            font-size: 1rem;
+            padding: 1rem 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .hearts {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        .heart {
+            position: absolute;
+            font-size: 2rem;
+            animation: float 6s ease-in infinite;
+            opacity: 0;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 3rem;
+            }
+
+            .minion-gif {
+                width: 250px;
+                height: 250px;
+            }
+
+            .question {
+                font-size: 1.4rem;
+            }
+
+            #yesBtn {
+                font-size: 1.5rem;
+                padding: 1.2rem 2.5rem;
+            }
+
+            .buttons {
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hearts" id="hearts"></div>
+
+    <div class="container">
+        <h1>Otis</h1>
+
+        <img src="https://c.tenor.com/CGQOSjUZ6ggAAAAd/tenor.gif"
+             alt="Minion with heart"
+             class="minion-gif">
+
+        <p class="question">Would you be my valentine?</p>
+
+        <div class="buttons">
+            <button id="yesBtn">YES! 🤍</button>
+            <button id="noBtn">No</button>
         </div>
+    </div>
 
-        <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
-            rel="stylesheet" media="print" onload="this.media='all'">
-        <script src="js/jquery.min.js"></script>
-        <script src="js/jquery-migrate-3.0.1.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.waypoints.min.js"></script>
-        <script src="js/jquery.stellar.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/aos.js"></script>
-        <script src="js/jquery.animateNumber.min.js"></script>
-        <script src="js/scrollax.min.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+    <script>
+        const noBtn = document.getElementById('noBtn');
+        const yesBtn = document.getElementById('yesBtn');
+        const heartsContainer = document.getElementById('hearts');
+
+        // Move the No button randomly when hovered or clicked
+        function moveNoButton() {
+            // Random position within a reasonable range
+            const maxX = window.innerWidth - 200;
+            const maxY = window.innerHeight - 100;
+
+            const randomX = Math.random() * (maxX - 100) + 50;
+            const randomY = Math.random() * (maxY - 100) + 50;
+
+            noBtn.style.position = 'fixed';
+            noBtn.style.left = randomX + 'px';
+            noBtn.style.top = randomY + 'px';
+        }
+
+        noBtn.addEventListener('mouseenter', moveNoButton);
+        noBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            moveNoButton();
+        });
+
+        // When Yes is clicked
+        yesBtn.addEventListener('click', () => {
+            document.body.innerHTML = `
+                <div id="celebration-screen" style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    min-height: 100vh;
+                    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+                    flex-direction: column;
+                    text-align: center;
+                    padding: 2rem;
+                ">
+                    <h1 style="
+                        font-family: 'Pacifico', cursive;
+                        font-size: 4rem;
+                        color: white;
+                        margin-bottom: 2rem;
+                        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+                        animation: celebrate 1s ease-in-out infinite;
+                    ">
+                        Te amo!!! 💖
+                    </h1>
+                    <p style="
+                        font-family: 'Quicksand', sans-serif;
+                        font-size: 2rem;
+                        color: white;
+                        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+                    ">
+                         Gracias por estar a mi lado, sos mi universo, soy el hombre más afortunado del mundo 🧡
+                    </p>
+                    <br/>
+                    <br/>
+                    <p style="
+                        font-family: 'Quicksand', sans-serif;
+                        font-size: 2rem;
+                        color: white;
+                        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+                    ">
+                        Tendremos una cita el 14, te llevaré por un ovni 🍀
+                    </p>
+                    <br/>
+                    <br/>
+                    <p style="
+                        font-family: 'Quicksand', sans-serif;
+                        font-size: 2rem;
+                        color: white;
+                        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+                    ">
+                        Y también te dejo cupones para lo que quieras, porque te mereces el mundo entero! 🎫 🎫 🎫
+                    </p>
+                    <br/>
+                    <br/>
+                    <button id="downloadBtn" style="
+                        background: rgba(255, 255, 255, 0.3);
+                        color: white;
+                        border: 2px solid white;
+                        padding: 1rem 2rem;
+                        font-size: 1.2rem;
+                        font-family: 'Quicksand', sans-serif;
+                        font-weight: 600;
+                        border-radius: 50px;
+                        cursor: pointer;
+                        margin-top: 2rem;
+                        transition: all 0.3s ease;
+                        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+                    " onmouseover="this.style.background='rgba(255, 255, 255, 0.5)'"
+                       onmouseout="this.style.background='rgba(255, 255, 255, 0.3)'">
+                        📸 Guardar
+                    </button>
+                </div>
+                <style>
+                    @keyframes celebrate {
+                        0%, 100% { transform: scale(1) rotate(-2deg); }
+                        50% { transform: scale(1.1) rotate(2deg); }
+                    }
+                </style>
+            `;
+
+            // Create confetti effect
+            createConfetti();
+
+            // Add download functionality
+            setTimeout(() => {
+                const downloadBtn = document.getElementById('downloadBtn');
+                downloadBtn.addEventListener('click', async () => {
+                    downloadBtn.innerHTML = '⏳ Capturando...';
+                    downloadBtn.disabled = true;
+
+                    try {
+                        const canvas = await html2canvas(document.body, {
+                            backgroundColor: null,
+                            scale: 2,
+                            logging: false
+                        });
+
+                        const link = document.createElement('a');
+                        link.download = 'te-amo-otis.png';
+                        link.href = canvas.toDataURL();
+                        link.click();
+
+                        downloadBtn.innerHTML = '✅ ¡Guardado!';
+                        setTimeout(() => {
+                            downloadBtn.innerHTML = '📸 Guardar recuerdo';
+                            downloadBtn.disabled = false;
+                        }, 2000);
+                    } catch (error) {
+                        downloadBtn.innerHTML = '❌ Error';
+                        setTimeout(() => {
+                            downloadBtn.innerHTML = '📸 Guardar recuerdo';
+                            downloadBtn.disabled = false;
+                        }, 2000);
+                    }
+                });
+            }, 100);
+        });
+
+        function createConfetti() {
+            const emojis = ['❤️', '💖', '💕', '💐', '🌸', '🌺'];
+            for (let i = 0; i < 50; i++) {
+                setTimeout(() => {
+                    const heart = document.createElement('div');
+                    heart.innerHTML = emojis[Math.floor(Math.random() * emojis.length)];
+                    heart.style.position = 'fixed';
+                    heart.style.left = Math.random() * 100 + '%';
+                    heart.style.top = '-50px';
+                    heart.style.fontSize = (Math.random() * 2 + 1) + 'rem';
+                    heart.style.animation = `fall ${Math.random() * 3 + 2}s linear`;
+                    heart.style.pointerEvents = 'none';
+                    document.body.appendChild(heart);
+
+                    setTimeout(() => heart.remove(), 5000);
+                }, i * 100);
+            }
+
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes fall {
+                    to {
+                        transform: translateY(100vh) rotate(360deg);
+                        opacity: 0;
+                    }
+                }
+            `;
+            document.head.appendChild(style);
+        }
+
+        // Create floating hearts and flowers in background
+        function createFloatingHeart() {
+            const emojis = ['💖', '❤️', '💐', '🌸', '🌺'];
+            const heart = document.createElement('div');
+            heart.className = 'heart';
+            heart.innerHTML = emojis[Math.floor(Math.random() * emojis.length)];
+            heart.style.left = Math.random() * 100 + '%';
+            heart.style.animationDelay = Math.random() * 2 + 's';
+            heart.style.fontSize = (Math.random() * 1.5 + 0.5) + 'rem';
+            heartsContainer.appendChild(heart);
+
+            setTimeout(() => heart.remove(), 6000);
+        }
+
+        setInterval(createFloatingHeart, 1000);
+    </script>
+</body>
 </html>
