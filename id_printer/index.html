@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4CAF50">
+    <meta name="description" content="Aplicación para imprimir carnets e identificaciones">
     <title>Impresora de IDs</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
     <style>
         * {
             margin: 0;
@@ -42,8 +46,8 @@
         }
 
         .card-placeholder {
-            width: 70mm;
-            height: 45mm;
+            width: 85.6mm;
+            height: 54mm;
             border: 2px dashed #ccc;
             border-radius: 5px;
             display: flex;
@@ -182,11 +186,11 @@
 
             .container {
                 max-width: none;
-                margin-top: 30mm;
+                margin-top: 2mm;
             }
 
             .cards-container {
-                gap: 15mm;
+                gap: 5mm;
                 margin: 0;
             }
 
@@ -194,6 +198,10 @@
                 border: none !important;
                 background: white;
                 page-break-inside: avoid;
+            }
+
+            .card-placeholder:not(.has-image) {
+                display: none !important;
             }
 
             .card-image {
@@ -205,7 +213,7 @@
         /* Para A4 en impresión */
         @page {
             size: A4;
-            margin: 15mm;
+            margin: 2mm;
         }
     </style>
 </head>
@@ -293,6 +301,15 @@
             }
 
             window.print();
+        }
+
+        // Registrar Service Worker para PWA
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js')
+                    .then(reg => console.log('Service Worker registrado'))
+                    .catch(err => console.log('Error al registrar Service Worker:', err));
+            });
         }
     </script>
 </body>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#4CAF50" rx="80"/>
+  <g fill="white">
+    <!-- Impresora -->
+    <rect x="140" y="120" width="232" height="60" rx="10"/>
+    <rect x="120" y="180" width="272" height="140" rx="15" fill="#fff" stroke="#4CAF50" stroke-width="20"/>
+    <rect x="160" y="280" width="192" height="140" rx="10"/>
+
+    <!-- Papel saliendo -->
+    <rect x="180" y="350" width="152" height="40" fill="#e8f5e9" stroke="#4CAF50" stroke-width="3"/>
+    <line x1="200" y1="360" x2="312" y2="360" stroke="#4CAF50" stroke-width="2"/>
+    <line x1="200" y1="370" x2="280" y2="370" stroke="#4CAF50" stroke-width="2"/>
+    <line x1="200" y1="380" x2="312" y2="380" stroke="#4CAF50" stroke-width="2"/>
+
+    <!-- Botón -->
+    <circle cx="320" cy="230" r="12" fill="#4CAF50"/>
+  </g>
+</svg>
